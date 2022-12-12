@@ -19,18 +19,18 @@ def Y3():
     return resultado
 
 def Y4():
-    resultado = (lista[0]*lista[5]*lista[10]*lista[15]) - (lista[0]*lista[5]*lista[11]*lista[14]) - (lista[0]*lista[6]*lista[9]*lista[15]) 
-    + (lista[0]*lista[6]*lista[11]*lista[13]) 
-    + (lista[0]*lista[7]*lista[9]*lista[14]) - (lista[0]*lista[7]*lista[10]*lista[13]) - (lista[1]*lista[4]*lista[10]*lista[15]) 
-    + (lista[1]*lista[4]*lista[11]*lista[14]) 
-    + (lista[1]*lista[6]*lista[8]*lista[15]) - (lista[1]*lista[6]*lista[11]*lista[12]) - (lista[1]*lista[7]*lista[8]*lista[14]) 
-    + (lista[1]*lista[7]*lista[10]*lista[12]) 
-    + (lista[2]*lista[4]*lista[9]*lista[15]) - (lista[2]*lista[4]*lista[11]*lista[13]) - (lista[2]*lista[5]*lista[8]*lista[15]) 
-    + (lista[2]*lista[5]*lista[11]*lista[12]) 
-    + (lista[2]*lista[7]*lista[8]*lista[13]) - (lista[2]*lista[7]*lista[9]*lista[12]) - (lista[3]*lista[4]*lista[9]*lista[14]) 
-    + (lista[3]*lista[4]*lista[10]*lista[13]) 
-    + (lista[3]*lista[5]*lista[8]*lista[14]) - (lista[3]*lista[5]*lista[10]*lista[12]) - (lista[3]*lista[6]*lista[8]*lista[13]) 
-    + (lista[3]*lista[6]*lista[9]*lista[12])
+    resultado = (lista[0]*lista[5]*lista[10]*lista[15] - lista[0]*lista[5]*lista[11]*lista[14] - lista[0]*lista[6]*lista[9]*lista[15] 
+    + lista[0]*lista[6]*lista[11]*lista[13] 
+    + lista[0]*lista[7]*lista[9]*lista[14] - lista[0]*lista[7]*lista[10]*lista[13] - lista[1]*lista[4]*lista[10]*lista[15] 
+    + lista[1]*lista[4]*lista[11]*lista[14] 
+    + lista[1]*lista[6]*lista[8]*lista[15] - lista[1]*lista[6]*lista[11]*lista[12] - lista[1]*lista[7]*lista[8]*lista[14] 
+    + lista[1]*lista[7]*lista[10]*lista[12] 
+    + lista[2]*lista[4]*lista[9]*lista[15] - lista[2]*lista[4]*lista[11]*lista[13] - lista[2]*lista[5]*lista[8]*lista[15] 
+    + lista[2]*lista[5]*lista[11]*lista[12] 
+    + lista[2]*lista[7]*lista[8]*lista[13] - lista[2]*lista[7]*lista[9]*lista[12] - lista[3]*lista[4]*lista[9]*lista[14] 
+    + lista[3]*lista[4]*lista[10]*lista[13] 
+    + lista[3]*lista[5]*lista[8]*lista[14] - lista[3]*lista[5]*lista[10]*lista[12] - lista[3]*lista[6]*lista[8]*lista[13] 
+    + lista[3]*lista[6]*lista[9]*lista[12])
     return resultado
 #F Exibir visualmente
 def X2():
